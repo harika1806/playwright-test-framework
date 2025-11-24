@@ -1,0 +1,28 @@
+{
+  "name": "pw",
+  "version": "1.0.0",
+  "description": "This a Playwright test framework for UI automation , with capability to run test cases across multiple environments , generates reports and creates screenshots for failed test cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hallu",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harika1806/playwright-test-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harika1806/playwright-test-framework/issues"
+  },
+  "homepage": "https://github.com/harika1806/playwright-test-framework#readme"
+}

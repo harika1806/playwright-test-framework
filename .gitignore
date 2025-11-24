@@ -1,0 +1,11 @@
+#Ignore node modules
+node_modules/
+
+#Ignore log files
+*.log
+
+#Ignore report files
+playwright-report/
+
+# Ignore package lock
+package-lock.json
