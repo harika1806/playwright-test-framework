@@ -9,3 +9,6 @@ playwright-report/
 
 # Ignore package lock
 package-lock.json
+
+#Ignore test results
+test-results/

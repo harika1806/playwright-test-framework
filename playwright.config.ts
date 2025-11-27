@@ -13,7 +13,7 @@ export default defineConfig({
     headless: true,
     //baseURL: 'https://www.saucedemo.com/',
     screenshot: 'only-on-failure',
-    //timeout: 10000,
+    trace: 'on-first-retry',
   },
   projects: [
     {

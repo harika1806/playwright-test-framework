@@ -30,7 +30,7 @@ This repository contains a Playwright-based test framework for UI automation. It
 
 - Run the full test suite:
 
-  npx playwright test
+  npx playwright test / npm test
 
 - Run a specific test file:
 
@@ -40,6 +40,9 @@ This repository contains a Playwright-based test framework for UI automation. It
 
   npx playwright test --headed
 
+- Run the all test in specific environment:
+
+  npx playwright test --project=ict
 
 ## Configuration
 
@@ -61,7 +64,7 @@ Fixtures are defined under `fixtures/` and used to encapsulate common setup step
 Example:
 
 - `fixtures/login.ts` - provides a login fixture to reuse authentication steps
-- `test-data/users.json` - contains user credentials and other test data
+- `test-data/users.json` - contains test data
 
 ## Screenshots and Artifacts
 
